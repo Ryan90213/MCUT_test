@@ -42,6 +42,18 @@ git push origin master
 git push
 ```
 
+* 查看git分支
+```
+git branch -a
+```
+* 查看git遠端來源庫
+```
+git remote
+```
+* 切換git分支
+```
+git checkout "branch名稱"
+```
 ---
 ### 推薦文章
 [推薦協作文件平台](https://hackmd.io/)
