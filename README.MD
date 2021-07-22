@@ -35,7 +35,7 @@ git commit -m "輸入這次修改的文字描述訊息"
 
 * 把紀錄推到遠端線上
 ```
-git push origin master 
+git push -u origin master 
 
 //若有設定過遠端指定分支
 
@@ -50,10 +50,22 @@ git branch -a
 ```
 git remote
 ```
+
+* 新增分支
+```
+git branch 分支名稱
+```
+
 * 切換git分支
 ```
 git checkout "branch名稱"
 ```
+
+* 新增分支並且同時切換到該分支
+```
+git checkout -b "分支名稱"
+```
+
 ---
 ### 推薦文章
 [推薦協作文件平台](https://hackmd.io/)
