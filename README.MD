@@ -35,7 +35,7 @@ git commit -m "輸入這次修改的文字描述訊息"
 
 * 把紀錄推到遠端線上
 ```
-git push origin master 
+git push -u origin master 
 
 //若有設定過遠端指定分支
 
