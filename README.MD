@@ -50,9 +50,17 @@ git branch -a
 ```
 git remote
 ```
+* 新增分支
+```
+git branch 分支名稱
+```
 * 切換git分支
 ```
 git checkout "branch名稱"
+```
+* 新增分支並且同時切換到該分支
+```
+git checkout -b "分支名稱"
 ```
 ---
 ### 推薦文章
